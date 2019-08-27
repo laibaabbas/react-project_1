@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod": "webpack --config webpack.prod.config.js",
-    "dev": "webpack-dev-server --config webpack.dev.config.js --open --hot"
+    "dev": "webpack-dev-server --config webpack.dev.config.js --open --hot",
+    "start": "node server/index.js"
   },
   "keywords": [],
   "author": "",
